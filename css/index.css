@@ -1,0 +1,68 @@
+body {
+	height: 1250px;
+}
+#navigation ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: lightpink;
+}
+#navigation ul li {
+	float: left;
+}
+#navigation ul li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 12px;
+	text-decoration: none;
+}
+#navigation ul li a:hover {
+	color: lightpink;
+	background-color: white;
+}
+#header h1{
+	color: lightpink;
+	text-align:center;
+}
+.article {
+	float: left;
+	margin: 0 13px 26px;
+	padding: 26px;
+	width: 27%;
+	height: 50%;
+	border: 2px dashed lightpink;
+	border-radius: 12px;
+}
+.article h1 {
+	color: red;
+	font-family: courier;
+}
+.article a:link {
+	color: orange;
+	text-decoration: none;
+}
+.article a:visited {
+	color: orange;
+	text-decoration: none;
+}
+.article a:hover {
+	color: red;
+}
+.article a img {
+	width: 100%;
+	height: 50%;
+	border: 1px solid lightpink;
+}
+#footer {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	overflow: hidden;
+	background-color: lightpink;
+}
+#footer p{
+	color: white;
+	text-align:center;
+}
